@@ -3,7 +3,7 @@
 Implémentation d'une application d'affective computing en réalité augmentée usant d'un Web Service Python recevant des images et renvoyant la position du visage ainsi que les émotions associées.
 Le projet est disponible en trois applications, à savoir en Local (Webcam), Vuforia (Android App) et HoloLens (UWP). Les deux dernières nécessitent l'usage du Web Service. Son déploiement est expliqué ci-dessous.
 
-![image1](https://github.com/thewozn/Projet-VR---ET5-INFO/blob/master/Images/Capture d'écran 2019-03-11 23.27.34.png)
+![image1](https://github.com/thewozn/Projet-VR---ET5-INFO/blob/master/Images/Background.png)
 
 ## Débuter
 Afin de bénéficier pleinement de l'application, différentes dépendances sont à satisfaire pour le projet. Ces dernières sont explicitées avec la commande associée dans la section des Pré-Requis. La marche à suivre pour le lancement des applications est décrite dans les parties ultérieures spécifiques à chaque applications.
@@ -42,9 +42,12 @@ Afin de permettre la reconnaissance d'émotions sur support distant, il est néc
 
 Le guide de démarrage du Web Service sur réseau local est le suivant:
 * **1)** Activer le partage de connexion dans Paramètres> Réseau et internet> Point d'accès sans fil mobile > Partager ma connexion Internet avec d'autres appareils. Cela aura pour effet de démarrer un réseau local sur le point d'accès Wifi accessible à tout appareil connecté au même réseau.
+
 ![image2](https://github.com/thewozn/Projet-VR---ET5-INFO/blob/master/Images/pacs.PNG)
 
+
 * **2)** Vérifier en ligne de commande que le réseau a bien été créé. Cela est aisément vérifiable en entrant la commande ipconfig en ligne de commande.
+
 ![image3](https://github.com/thewozn/Projet-VR---ET5-INFO/blob/master/Images/ipconfig.png)
 
 * **3)** Saisir dans server_back ou server_back_updated l'adresse de déploiement du serveur.
@@ -59,6 +62,7 @@ Pour lancer le Web Service, se référer à la section éponyme. Le fichier **se
 
 Le projet HoloLens est fourni sous forme de dossier Unity, et n'est donc pas exécutable en l'état. Pour build le projet, les manipulations suivantes sont requises:
 * Aller dans Files > Build Settings et s'assurer que la configuration est la suivante:
+
 ![image4](https://github.com/thewozn/Projet-VR---ET5-INFO/blob/master/Images/config_hololens.PNG)
 
 * Build le projet dans le dossier App (le créer si nécessaire)
