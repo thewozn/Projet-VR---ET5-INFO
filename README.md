@@ -106,7 +106,7 @@ Au lancement de l’application, il vous sera demandé de rentrer l’adresse ip
 ![image4](https://github.com/thewozn/Projet-VR---ET5-INFO/blob/master/Images/rvi_ipadresse.PNG)
 
 Par exemple :  127.50.1.18:18001
-               AdresseIP:Port
+               
 ## Auteurs
 
 * **Anthony WOZNICA**
