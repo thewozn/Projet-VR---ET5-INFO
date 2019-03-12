@@ -75,6 +75,34 @@ Lors du clic, une photo est prise et envoyée au Web Service ainsi qu'à des API
 Il est théoriquement (uniquement théoriquement) possible d'effectuer une reconnaissance en temps réel. Auquel cas, il suffirait de décommenter les lignes du code dans la fonction start() et commenter la partie relative au Server1. Cependant, l'implémentation souffre de quelques failles ne permettant pas l'envoi et la récéption en continu.
 
 
+## Débuter l'expérience mobile 
+
+### Pré-requis:
+#### Général
+* Vuforia pour Unity
+* Le Android-SDK. Cependant il est plus facile de trouver le sdk en téléchargeant l’ide Android studio 
+* UnitySetup-Android Support. Allant dans fichier build setting en choisissant la plateforme du build. Si le support n’est pas installé, alors unity vous proposera de l’installer 
+
+### Build du projet :
+* Aller dans fichier / Build Settings
+![image4](https://github.com/thewozn/Projet-VR---ET5-INFO/blob/master/Images/config_hololens.PNG)
+
+*  Choisissez la plateforme Android parmis les autres plateformes et cliquez sur switch plateforme 
+![image4](https://github.com/thewozn/Projet-VR---ET5-INFO/blob/master/Images/config_hololens.PNG)
+
+Pour construire le fichier apk qui sera installable sur smartphone, cliquez sur Build. Alors là, le processus se lancera. Lors du premier build il vous demandera le chemin vers le Android-SDK, si unity ne le trouve pas comme un grand.  Ensuite récupérez  le  fichier apk créer. Mettez le dans votre smartphone et cliquez sur le fichier pour lancer l’installation sur votre mobile.  
+
+### Paramétrage du projet :
+*  Aller dans editer/Projet Setting
+
+* Aller sur Player 
+* Ce qui nous intéresse  ici c’est la partie XR setting, il faut choisir Vuforia Augmented Reality Supported 
+
+### Lancement de l'application mobile :
+Au lancement de l’application, il vous sera demandé de rentrer l’adresse ip du web service python. Cependant, il faudra entrer l’adresse IP et le port du web service dans le champs Adresse Ip
+
+Par exemple :  127.50.1.18:18001
+               AdresseIP:Port
 ## Auteurs
 
 * **Anthony WOZNICA**
