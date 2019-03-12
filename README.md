@@ -54,7 +54,7 @@ Le guide de démarrage du Web Service sur réseau local est le suivant:
 
 Si ces manipulations ne sont pas disponibles, il est également possible de se connecter à un serveur factice à l'adresse http://anthwozn.pythonanywhere.com. Ce dernier n'effectue cependant aucune opération et n'est utilisé qu'à des fins de test.
 
-###Démarrage du projet sur HoloLens
+### Démarrage du projet sur HoloLens
 **Cette partie requiert de lancer le Web Service pour profiter de ses fonctionnalités. **
 Pour lancer le Web Service, se référer à la section éponyme. Le fichier **server_back_update.py** est utilisé.
 
