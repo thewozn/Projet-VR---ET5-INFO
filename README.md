@@ -81,7 +81,7 @@ Il est théoriquement (uniquement théoriquement) possible d'effectuer une recon
 #### Général
 * Vuforia pour Unity
 * Le Android-SDK. Cependant il est plus facile de trouver le sdk en téléchargeant l’ide Android studio 
-* UnitySetup-Android Support. Allant dans fichier build setting en choisissant la plateforme du build. Si le support n’est pas installé, alors unity vous proposera de l’installer 
+* UnitySetup-Android Support. Allez dans fichier build setting en choisissant la plateforme du build. Si le support n’est pas installé, alors unity vous proposera de l’installer 
 
 ### Build du projet :
 * Aller dans fichier / Build Settings
